@@ -1,0 +1,193 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@font-face {
+   font-family: "Scotch Modern";
+   src: url("../fonts/ScotchModern-Bold.woff2") format("woff2"), url("../fonts/ScotchModern-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Scotch Modern';
+   src: url("../fonts/ScotchModern.woff2") format("woff2"),url("../fonts/ScotchModern.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+.wrapper {
+   overflow: hidden;
+   max-width: 810px;
+   margin: 50px auto;
+}
+body{
+   font-family: "Lato";
+}
+.title-figma {
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+margin-bottom: 26px;
+}
+.meta {
+   color: #787A80;
+   margin-bottom: 40px;
+}
+.meta-date {
+   background: url("../img/Calendar.png") 0 0 no-repeat ;
+   padding: 0 0 0 25px;
+   line-height: 1.6;
+}
+.meta-time {
+   background: url("../img/Clock.png") 0 0 no-repeat ;
+   padding: 0 0 0 25px;
+   margin: 24px;
+   line-height: 1.6;
+}
+
+.title-figma, .text{
+   color: #1E212C;
+}
+.text, .list{
+font-size: 16px;
+line-height: 1.6;
+color: #424551;
+}
+.top {
+   margin-bottom: 25px;
+}
+.text{
+   margin: 60px 0px;
+}
+.bold,.bold-2 {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.5;
+}
+.content-2{
+   max-width: 390px;
+}
+h6 {
+text-transform: uppercase;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+}
+.bold, .text-end, .list {
+   margin-bottom: 24px;
+}
+.list li, .list-2 li {
+   background: url("../img/check.png") 0 0  no-repeat ;
+   padding-left: 32px;
+}
+.list-2{
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+   margin-bottom: 22px;
+}
+.button{
+   display: inline-block;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 3.14;
+   text-align: center;
+   letter-spacing: 0.5px;
+   color: #FFFFFF;
+   padding: 0 32px;
+   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   border-radius: 4px;
+   margin-bottom: 50px;
+}
+.bold-2 {
+   margin: 48px 0px;
+   padding-left: 58px;
+   background: url("../img/braces.png") 0 0 no-repeat ;
+}
+
+/*Стили для статьи*/
+.wrapper-1 {
+   overflow: hidden;
+   max-width: 810px;
+   margin: 50px auto;
+   background: url("../img/fon.jpg") 0 0 repeat;
+}
+.body-1 {
+   background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(229,30,242,1) 100%);
+}
+.block-1 {
+   background: url("../img/fon_2.jpg") 0 0 repeat; 
+   background-attachment: fixed;
+}
+.block-2 {
+   background: url("../img/fon_2.png") 0 0/cover repeat; 
+}
+.block-3 {
+   background: url("../img/fon_3.jpg") -50px 0/cover no-repeat; 
+}
+.block-4 {
+   background: url("../img/fon_4.jpg") 0 80px repeat-x; 
+}
+a.link {
+   font-family: "Lora",serif;
+   line-height: 1.7;
+   font-size: 30px;
+   color:indianred;
+}
+nav {
+   border: 5px dashed rgba(211, 12, 128, 0.952);
+   border-radius: 10px;
+   padding-left: 40px;
+   background: url("../img/fon_5.jpg") 0 0/cover no-repeat; 
+}
+.link.figma{
+   color:rgb(243, 11, 212);
+}
+.title,h2{
+   color:#e71c71f5;
+   font-family: "Scotch Modern",sans-serif;
+   text-align: center;
+   font-weight: 700;
+}
+.title {
+   font-size: 64px;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   text-shadow: 3px 3px 3px rgba(199, 44, 44, 0.945);
+   margin: 0px 0px 30px auto;
+   text-align: right;
+}
+h2{
+   font-size: 32px;
+   margin: 20px;
+}
+
+.block-1, .block-2, .block-3, .block-4 {
+   font-family: "Lora",serif;
+   font-size: 18px;
+   line-height: 1.7;
+   text-align: justify;
+   text-indent: 40px;
+   font-weight: 700;
+}
+.content-text-scroll{
+   height: 150px;
+   overflow: scroll;
+}
+.content-text-end{
+   height: 300px;
+   overflow: hidden;
+}
+.bold-text {
+   font-family: "Caveat", cursive;
+   font-size: 30px;
+   line-height: 1.5;
+   text-align: center;
+   margin: 25px 0;
+   max-width: 700px;
+}
+
+.block-1 img, .block-2 img, .block-3 img, .block-4 img {
+   padding: 40px;
+}
